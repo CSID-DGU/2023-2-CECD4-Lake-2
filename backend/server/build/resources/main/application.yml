@@ -1,0 +1,43 @@
+api:
+  serviceKey: nhUrWCGJN9ILKpSKUvHF8wlcOJEX6lw2kYudhwTmnuIdla5A%2F0Q%2BNlO87wmxVx9BV%2Bk6H3Vq7JZHQte6R%2BprxA%3D%3D
+server:
+  port: 8081
+  address: 0.0.0.0
+  servlet:
+    session:
+      cookie:
+        secure: true
+#        domain: https://blindroute.web.app
+        same-site: none
+spring:
+  security:
+    oauth2:
+      client:
+        registration: # ????? ??
+#          keycloak:
+#            authorization-grant-type: authorization_code      # OAuth 2.0 ?? ?? ??
+#            client-id: oauth2-client-app                      # ??? ???? ??? ????? ???
+#            client-name: oauth2-client-app                    # ????? ??
+#            client-secret: FLRnxHnsJMwu1ZCqXWswacSzESZMGHur
+#            client-authentication-method: client_secret_post  # ????? ???? ????
+#            redirect-uri: http://localhost:8081/login/oauth2/code/keycloak # ?????? ?? ?? ?? ? ?????? ????? ?? ??
+#            scope:          # ???? ?? ?? ??
+#              - openid
+#              - email
+#              - profile
+          google:
+            client-name: client
+            client-id: 7823629599-g4b7nrbbeeagihfu5mec1csogd5sdp05.apps.googleusercontent.com
+            client-secret: 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
+#        provider:     # ??? ??
+#          keycloak:
+#            authorization-uri: http://localhost:8080/realms/Outh2/protocol/openid-connect/auth   #  OAuth 2.0 ?? ?? ?? ?? ???
+#            issuer-uri: http://localhost:8080/realms/Outh2                                       # ??? ??? ??
+#            jwk-set-uri: http://localhost:8080/realms/Outh2/protocol/openid-connect/certs        # OAuth 2.0 JwkSetUri ?? ???
+#            token-uri: http://localhost:8080/realms/Outh2/protocol/openid-connect/token          # OAuth 2.0 ?? ?? ???
+#            user-info-uri: http://localhost:8080/realms/Outh2/protocol/openid-connect/userinfo   # OAuth 2.0 UserInfo ?? ???
+#            user-name-attribute: preferred_username                                               # OAuth 2.0 ????? ???? ????
+#logging:
+#  level:
+#    root: trace
+
