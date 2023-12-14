@@ -1,0 +1,60 @@
+.Home {
+    height: calc(calc(var(--vh, 1vh) * 100) - 5px - 10px);
+    width: calc(100vw - 10px - 10px);
+    padding: 10px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Home's children elements */
+.header {
+    flex: 0 0 40px;
+    padding-bottom: 14px;
+    border-bottom: 1px dashed var(--dividerline-color);
+    margin-bottom: 15px;
+}
+
+.body {
+    flex: 1 0 calc(100% - 40px - 1px - 14px - 15px);
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* header's children elements */
+.header__title {
+    font-size: 28px;
+    margin: 0px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/* body's children elements */
+.authentication {
+    flex: 1 0 calc(100% - 5%);
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+
+/* authentication's children elements */
+.authentication button {
+    width: 90%;
+    height: 90%;
+    border-radius: 8px;
+    border: 1px solid var(--button-border--color);
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    font-size: 1.2rem;
+    font-weight: 550;
+    cursor: pointer;
+    user-select: none;
+}

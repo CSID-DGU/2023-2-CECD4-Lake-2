@@ -1,0 +1,36 @@
+.ClientWaitingBookmarkedBus {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ClientWaitingBookmarkedBus's children elements */
+.wishBusInfo {
+    width: 90%;
+    height: 90%;
+    margin-bottom: 10%;
+    border-radius: 8px;
+    border: 1px solid var(--button-border--color);
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* wishBusInfo's children elements */
+.wishBusInfo h1 {
+    font-weight: 550;
+    cursor: pointer;
+    user-select: none;
+}
+
+.wishBusInfo h3 {
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+}

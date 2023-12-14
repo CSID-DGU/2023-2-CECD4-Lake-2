@@ -1,0 +1,33 @@
+.Panel {
+    height: calc(calc(var(--vh, 1vh) * 100) - 5px - 10px);
+    width: calc(100vw - 10px - 10px);
+    padding: 10px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Panel's children elements */
+.header {
+    flex: 0 0 40px;
+    padding-bottom: 14px;
+    border-bottom: 1px dashed var(--dividerline-color);
+    margin-bottom: 15px;
+}
+
+.body {
+    flex: 1 0 calc(100% - 40px - 1px - 14px - 15px);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* header's children elements */
+.header__title {
+    font-size: 28px;
+    margin: 0px;
+    text-align: center;
+}

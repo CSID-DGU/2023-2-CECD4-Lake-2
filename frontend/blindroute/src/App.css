@@ -1,0 +1,54 @@
+:root {
+  --vh: 100%;
+
+
+  /* main */
+  --main-background-color: #ffffff;
+  --main-border-color: #000000;
+  --main-background-color-opaque: rgba(70, 70, 70, 0.7);
+  --main-font-color: #000000;
+
+  /* component */
+  --component-background-color: #ffffff;
+  --component-font-color: #000000;
+  --component-border-color: #cbd8e4;
+
+
+  /* line */
+  --dividerline-color: rgba(0, 0, 0, 0.2);
+
+
+  /* button */
+  --button-color: #ffffff;
+  --button-border--color: #000000;
+  --button-text-color: #000000;
+
+  --button-positive-color: #08b66d;
+  --button-positive-hover-color: #7be6b9;
+
+  --button-negative-color: #e06060;
+  --button-negative-hover-color: #d19a9a;
+
+  --button-disable-color: #525252;
+  --button-disable--hover-color: #9b9b9b;
+
+
+  /* loading */
+  --loading-default-color: #f3f3f3;
+  --loading-gaged-color: #2b2b2b;
+}
+
+.theme_dark {
+  /* main */
+  --main-background-color: #161616;
+  --main-font-color: #ffffff;
+
+
+  /* component */
+  --component-background-color: #161616;
+  --component-font-color: #ffffff;
+
+
+  /* line */
+  --dividerline-color: rgba(255, 255, 255, 0.2);
+}

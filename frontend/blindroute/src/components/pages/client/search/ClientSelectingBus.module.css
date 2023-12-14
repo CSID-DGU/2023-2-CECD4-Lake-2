@@ -1,0 +1,73 @@
+.ClientSelectingBus {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ClientSearchStation's children elements */
+.busInfoContainer {
+    height: 90%;
+    width: 90%;
+    margin-bottom: 10%;
+    border-radius: 8px;
+    border: 1px solid var(--button-border--color);
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+}
+
+.busInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.busInfo_bookmark {
+    background: linear-gradient(to bottom,
+            rgb(247, 184, 90) 0%,
+            rgb(255, 255, 255) 30%,
+            transparent 30%,
+            transparent 100%);
+    border-radius: 8px;
+}
+
+
+.button_movePrev,
+.button_moveNext {
+    width: 10%;
+    height: calc(100% - 15%);
+    margin: 0px;
+    margin-bottom: 14%;
+    padding: 0px;
+    border: 0px;
+    background-color: white;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button_movePrev {
+    margin-right: 3.5%;
+}
+
+.button_moveNext {
+    margin-left: 3.5%;
+}
+
+
+/* busInfo's children elements */
+.busInfo h1 {
+    font-weight: 550;
+    cursor: pointer;
+    user-select: none;
+}
+
+.busInfo h3 {
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+}
